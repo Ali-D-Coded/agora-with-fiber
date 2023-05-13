@@ -14,8 +14,8 @@ import (
 var APPID, APP_CERTIFICATE string 
 func main() {
 	fmt.Println("Agora Token Builder")
-	os.Setenv("APP_ID", "18aa7610b5a94be68a09484435b3e780")
-	os.Setenv("APP_CERTIFICATE", "23f2f14910b2499a980ecaf579ff61de")
+// 	os.Setenv("APP_ID", "18aa7610b5a94be68a09484435b3e780")
+// 	os.Setenv("APP_CERTIFICATE", "23f2f14910b2499a980ecaf579ff61de")
 
 	appIDEnv, appIDExists := os.LookupEnv("APP_ID")
 	appCertEnv, appCertExists := os.LookupEnv("APP_CERTIFICATE")
